@@ -1,0 +1,59 @@
+/* Chatbot Container */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Chat Messages */
+  .chatbot {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  /* Individual Message Bubbles */
+  .message {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    max-width: 80%; /* Limiting the width to prevent message overflow */
+  }
+  
+  /* User Message */
+  .message-user {
+    background-color: #eee;
+    color: #333;
+    float: left; /* To align user messages to the left */
+  }
+  
+  /* Bot Message */
+  .message-bot {
+    background-color: #007bff;
+    color: #fff;
+    float: right; /* To align bot messages to the right */
+  }
+  
+  /* Input Field and Submit Button */
+  .form-control {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .btn-primary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
